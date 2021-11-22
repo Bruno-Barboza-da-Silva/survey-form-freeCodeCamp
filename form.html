@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">What is your experience in web development?</h1>
+        <p id="description">Share with us a little of your experience</p>
+    </header>
+    <main>
+        <form action="" id="survey-form">
+            <div class="break">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="break">
+                <label for="email" id="email-label">E-mail</label>
+                <input type="email" id="email" placeholder="example@example.com" required
+                title="example@example.com"></input>
+            </div>
+            <div class="break">
+                <label for="number" id="number-label">Age</label>
+                <input type="number" id="number" placeholder="Your age" required min="1" max="99">
+            </div>
+            <div class="break">
+                <p>What is your current job?</p>
+                <select name="" id="dropdown">
+                    <option value="1">Student</option>
+                    <option value="2">Front-end Developer web</option>
+                    <option value="3">Back-end Developer web</option>
+                    <option value="4">Mobile Developer</option>
+                    <option value="5">Others</option>
+                </select>
+            </div class="break">
+            <div class="row">
+
+                <div class="break">
+                    <p>What languages you know or work with?</p>
+                    <div class="left">
+                        <input type="checkbox" id="HTML" value="HTML">
+                        <label for="HTML">HTML</label>
+                    </div>
+                    <div class="left">
+                        <input type="checkbox" id="CSS" value="CSS">
+                        <label for="CSS">CSS</label>
+                    </div>
+                    <div class="left">
+                        <input type="checkbox" id="JavaScript" value="JavaScript">
+                        <label for="JavaScript">JavaScript</label>
+                    </div>
+                    <div class="left">
+                        <input type="checkbox" id="Pyton" value="Pyton">
+                        <label for="Pyton">Pyton</label>
+                    </div>
+                    <div class="left">
+                        <input type="checkbox" id="Java" value="Java">
+                        <label for="Java">Java</label>
+                    </div>
+                    <div class="left">
+                        <input type="checkbox" id="C++" value="C++">
+                        <label for="C++">C++</label>
+                    </div>
+                    <div class="left">
+                        <input type="checkbox" id="PHP" value="PHP">
+                        <label for="PHP">PHP</label>
+                    </div>
+                    <div class="left">
+                        <input type="checkbox" id="others" value="others">
+                        <label for="others">Others</label>
+                    </div>
+                </div>
+                <div id="radio">
+                    <p>How do you classify your knowledge?</p>
+                    <div class="left">
+                        <input type="radio" name="knowledge" id="beginner">
+                        <label for="beginner">Beginner</label>
+                    </div>
+                    <div class="left">
+                        <input type="radio" name="knowledge" id="intemerdiary">
+                        <label for="intermediary">Intermediary</label>
+                    </div>
+                    <div class="left">
+                        <input type="radio" name="knowledge" id="advanced">
+                        <label for="advanced">Advanced</label>
+                    </div>
+                </div>
+            </div>
+            <div class="break">
+                <label for="message">Any questions or suggenstions? Leave us a message!</label>
+                <textarea name="" id="message" cols="30" rows="5" placeholder="Send us a message"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>This is a site made by Bruno Barboza</p>
+        <a href="https://github.com/Bruno-Barboza-da-Silva" target="_blank">Github link</a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+html{
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+    background-image: url(https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    color: white;
+    background-size: 100%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+#description {
+    font-size: 2.5rem;
+}
+
+form {
+    background-color: lightblue;
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 768px;
+    margin: auto;
+    background-color: blue;
+    opacity: 0.9;
+}
+@media (min-width: 400px){
+    form {
+        width: 100%;
+    }
+}
+
+.break {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    text-align: center;
+}
+
+
+
+#dropdown {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: flex-end;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 2rem;
+}
+
+button {
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+input, select {
+    background-color:white;
+    border-radius: 1rem;
+    line-height: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+ textarea {
+     border-radius: 1rem;
+ }
+
+ input::placeholder, textarea::placeholder {
+     font-size: 1.5rem;
+ }
+
+footer {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    border-radius: 1rem;
+    color: white;
+    background-color: blue;
+    padding: 0.5rem;    
+}
+
+a:hover {
+    background-color: darkblue;
+}
